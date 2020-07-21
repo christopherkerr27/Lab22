@@ -13,9 +13,7 @@ namespace Lab22.Controllers
 
         public SearchController()
         {
-            listOfMovies = NewMethod();
 
-            listOfMovies.MovieList = listOfMovies.MovieList.OrderBy(x => x.Title).ToList();
         }
 
         private static SearchResult NewMethod()

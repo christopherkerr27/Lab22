@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace Lab22.Models
 {
-    public class SearchRequest
+    public class Search
     {
-        public class SearchRequest
+        public class Search
         {
             
             public string Title { get; set; }
